@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="mukuruUtils.Reporting"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test_FireFox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
+    <classes>
+      <class name="mukuru_testCases.MenuTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="MenuNavigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- mukuru_testCases.MenuTestCase -->
+      <class name="mukuru_testCases.TC_Search">
+        <methods>
+          <include name="setUp"/>
+          <include name="SearchProduct"/>
+          <include name="tearDown"/>
+          <include name="SearchProductNegative"/>
+        </methods>
+      </class> <!-- mukuru_testCases.TC_Search -->
+      <class name="mukuru_testCases.TC_ContactUS">
+        <methods>
+          <include name="setUp"/>
+          <include name="contactUsNeg"/>
+          <include name="tearDown"/>
+          <include name="contactUsPositive"/>
+        </methods>
+      </class> <!-- mukuru_testCases.TC_ContactUS -->
+      <class name="mukuru_testCases.TC_Registrattion">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="registration"/>
+        </methods>
+      </class> <!-- mukuru_testCases.TC_Registrattion -->
+    </classes>
+  </test> <!-- Test_FireFox(failed) -->
+  <test thread-count="5" parallel="tests" name="Test_Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
+    <classes>
+      <class name="mukuru_testCases.MenuTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="MenuNavigation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- mukuru_testCases.MenuTestCase -->
+      <class name="mukuru_testCases.TC_Search">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="SearchProductNegative"/>
+        </methods>
+      </class> <!-- mukuru_testCases.TC_Search -->
+      <class name="mukuru_testCases.TC_ContactUS">
+        <methods>
+          <include name="setUp"/>
+          <include name="contactUsNeg"/>
+          <include name="tearDown"/>
+          <include name="contactUsPositive"/>
+        </methods>
+      </class> <!-- mukuru_testCases.TC_ContactUS -->
+      <class name="mukuru_testCases.TC_Registrattion">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="registration"/>
+        </methods>
+      </class> <!-- mukuru_testCases.TC_Registrattion -->
+    </classes>
+  </test> <!-- Test_Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

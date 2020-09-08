@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-07T07:33:30Z" name="Suite" finished-at="2020-09-07T07:37:15Z" duration-ms="225310">
+    <groups>
+    </groups>
+    <test started-at="2020-09-07T07:33:30Z" name="Test" finished-at="2020-09-07T07:37:15Z" duration-ms="225310">
+      <class name="mukuru_testCases.TC_Registrattion">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:mukuru_testCases.TC_Registrattion@7b02881e]" started-at="2020-09-07T07:36:21Z" name="setUp" finished-at="2020-09-07T07:36:48Z" duration-ms="27629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registration()[pri:0, instance:mukuru_testCases.TC_Registrattion@7b02881e]" started-at="2020-09-07T07:36:48Z" name="registration" finished-at="2020-09-07T07:37:11Z" duration-ms="22409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mukuru_testCases.TC_Registrattion@7b02881e]" started-at="2020-09-07T07:37:11Z" name="tearDown" finished-at="2020-09-07T07:37:15Z" duration-ms="4671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mukuru_testCases.TC_Registrattion -->
+      <class name="mukuru_testCases.TC_ContactUS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:mukuru_testCases.TC_ContactUS@5f8edcc5]" started-at="2020-09-07T07:35:17Z" name="setUp" finished-at="2020-09-07T07:35:41Z" duration-ms="24574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="contactUsNeg()[pri:0, instance:mukuru_testCases.TC_ContactUS@5f8edcc5]" started-at="2020-09-07T07:35:41Z" name="contactUsNeg" finished-at="2020-09-07T07:35:58Z" duration-ms="17247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsNeg -->
+        <test-method signature="contactUsPositive()[pri:0, instance:mukuru_testCases.TC_ContactUS@5f8edcc5]" started-at="2020-09-07T07:35:59Z" name="contactUsPositive" finished-at="2020-09-07T07:36:16Z" duration-ms="17724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsPositive -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mukuru_testCases.TC_ContactUS@5f8edcc5]" started-at="2020-09-07T07:36:16Z" name="tearDown" finished-at="2020-09-07T07:36:21Z" duration-ms="4272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mukuru_testCases.TC_ContactUS -->
+      <class name="mukuru_testCases.TC_Search">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:mukuru_testCases.TC_Search@6db9f5a4]" started-at="2020-09-07T07:34:36Z" name="setUp" finished-at="2020-09-07T07:34:57Z" duration-ms="21468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchProduct()[pri:0, instance:mukuru_testCases.TC_Search@6db9f5a4]" started-at="2020-09-07T07:34:57Z" name="SearchProduct" finished-at="2020-09-07T07:35:06Z" duration-ms="8436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method signature="SearchProductNegative()[pri:0, instance:mukuru_testCases.TC_Search@6db9f5a4]" started-at="2020-09-07T07:35:06Z" name="SearchProductNegative" finished-at="2020-09-07T07:35:12Z" duration-ms="6294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductNegative -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mukuru_testCases.TC_Search@6db9f5a4]" started-at="2020-09-07T07:35:12Z" name="tearDown" finished-at="2020-09-07T07:35:17Z" duration-ms="4579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mukuru_testCases.TC_Search -->
+      <class name="mukuru_testCases.MenuTestCase">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:mukuru_testCases.MenuTestCase@117e949d]" started-at="2020-09-07T07:33:31Z" name="setUp" finished-at="2020-09-07T07:34:03Z" duration-ms="32486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MenuNavigation()[pri:0, instance:mukuru_testCases.MenuTestCase@117e949d]" started-at="2020-09-07T07:34:03Z" name="MenuNavigation" finished-at="2020-09-07T07:34:30Z" duration-ms="26967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MenuNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mukuru_testCases.MenuTestCase@117e949d]" started-at="2020-09-07T07:34:30Z" name="tearDown" finished-at="2020-09-07T07:34:36Z" duration-ms="5575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mukuru_testCases.MenuTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
